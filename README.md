@@ -44,7 +44,7 @@ For the underlying marine craft modeling and control framework, see:
 - Dynamic-model and curvature-based trajectory forecasting
 - Excel export for trajectory logs
 
-## Procet Structure
+## Project Structure
 
 ```text
 .
