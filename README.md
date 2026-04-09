@@ -15,7 +15,7 @@ This project is built around the idea that the recent track of a vessel already 
 The simulator therefore serves two purposes at once: it provides a dynamic-model baseline using the `Otter USV`, and it provides a curvature-based path forecast that can be compared against it. This makes the project a useful testbed for showing why naive straight-line AIS forecasting can be deceptive, and why a curvilinear trajectory interpretation can offer a more realistic short-horizon estimate.
 
 
-## 📋 Usage
+##  Usage
 ## Control Panel
 - **Start Butonu**: Start the Simulator
 - **Stop Butonu**:  Pauses the simulator.
@@ -25,7 +25,6 @@ The simulator therefore serves two purposes at once: it provides a dynamic-model
 - **Heading STD**: Adding Gaussian noise to heading angle 
 =======
 ## Acknowledgment
->>>>>>> 9f24060 (initial commit)
 
 The `Otter USV` dynamic model used in this project is based on Thor I. Fossen's Python Vehicle Simulator project. In particular, the `Otter` implementation in this repository is adapted from the vehicle models published by Fossen and collaborators:
 
