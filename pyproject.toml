@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "curvepath-sim"
+version = "0.1.0"
+description = "Pygame-based USV simulator with Otter dynamics and curvature path prediction."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "pygame",
+]
+
+[tool.setuptools]
+packages = ["curvepath_sim", "curvepath_sim.math"]

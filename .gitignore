@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.python-version
+.codex
+.vscode/
+out.gv
+out.png
+outfile.ps
+*.egg-info/

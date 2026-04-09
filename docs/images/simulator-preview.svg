@@ -1,0 +1,82 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#CFE8F6"/>
+      <stop offset="100%" stop-color="#86B9D6"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FBFD"/>
+      <stop offset="100%" stop-color="#EDF4F8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#6E8CA1" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="760" fill="#E5EFF5"/>
+  <rect x="24" y="24" width="820" height="712" rx="26" fill="url(#water)" filter="url(#shadow)"/>
+  <rect x="870" y="24" width="306" height="712" rx="26" fill="url(#panel)" stroke="#BCD0DE" stroke-width="2"/>
+
+  <g opacity="0.45" stroke="#A6C9DD" stroke-width="1">
+    <line x1="126" y1="24" x2="126" y2="736"/>
+    <line x1="228" y1="24" x2="228" y2="736"/>
+    <line x1="330" y1="24" x2="330" y2="736"/>
+    <line x1="432" y1="24" x2="432" y2="736"/>
+    <line x1="534" y1="24" x2="534" y2="736"/>
+    <line x1="636" y1="24" x2="636" y2="736"/>
+    <line x1="738" y1="24" x2="738" y2="736"/>
+    <line x1="24" y1="126" x2="844" y2="126"/>
+    <line x1="24" y1="228" x2="844" y2="228"/>
+    <line x1="24" y1="330" x2="844" y2="330"/>
+    <line x1="24" y1="432" x2="844" y2="432"/>
+    <line x1="24" y1="534" x2="844" y2="534"/>
+    <line x1="24" y1="636" x2="844" y2="636"/>
+  </g>
+
+  <path d="M145 485C198 470 244 444 283 409C326 370 374 354 427 360C489 367 540 345 594 301C642 262 696 244 756 251" stroke="#5F7D96" stroke-width="6" stroke-linecap="round"/>
+  <path d="M145 476C198 454 244 423 283 392C326 357 374 343 427 348C489 355 540 335 594 293C642 256 696 240 756 248" stroke="#24384B" stroke-width="7" stroke-linecap="round"/>
+  <path d="M145 472C198 448 244 416 283 382C326 346 374 332 427 338C489 346 540 329 594 289C642 254 696 240 756 246" stroke="#F3A63F" stroke-width="7" stroke-linecap="round" stroke-dasharray="18 12"/>
+
+  <g transform="translate(430 338) rotate(-16)">
+    <ellipse cx="0" cy="0" rx="28" ry="24" fill="#FFFFFF" opacity="0.7"/>
+    <path d="M32 0L-18 -14L-10 0L-18 14L32 0Z" fill="#E56358" stroke="#0E1821" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="22" stroke="#FFFFFF" stroke-width="4"/>
+  </g>
+
+  <text x="895" y="74" fill="#0E1821" font-family="DejaVu Sans, Arial, sans-serif" font-size="32" font-weight="700">Control Deck</text>
+  <text x="895" y="108" fill="#2CB87E" font-family="DejaVu Sans, Arial, sans-serif" font-size="16">State: Running</text>
+  <text x="1020" y="108" fill="#24384B" font-family="DejaVu Sans, Arial, sans-serif" font-size="16">Active USVs: 3</text>
+
+  <text x="895" y="156" fill="#0E1821" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">Actions</text>
+  <rect x="895" y="172" width="125" height="42" rx="14" fill="#2CB87E"/>
+  <rect x="1031" y="172" width="125" height="42" rx="14" fill="#D8544F"/>
+  <rect x="895" y="228" width="261" height="42" rx="14" fill="#F4B24E"/>
+  <text x="957" y="199" fill="#0E1821" font-family="DejaVu Sans, Arial, sans-serif" font-size="16">Start</text>
+  <text x="1076" y="199" fill="#0E1821" font-family="DejaVu Sans, Arial, sans-serif" font-size="16">Stop</text>
+  <text x="995" y="255" fill="#0E1821" font-family="DejaVu Sans, Arial, sans-serif" font-size="16">Add Boat</text>
+
+  <text x="895" y="318" fill="#0E1821" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">Simulation Speed</text>
+  <rect x="895" y="336" width="228" height="7" rx="4" fill="#7894AD"/>
+  <circle cx="1085" cy="339.5" r="9" fill="#2CB87E" stroke="#F8FBFD" stroke-width="4"/>
+  <text x="1130" y="344" fill="#24384B" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">1.8x</text>
+  <text x="895" y="371" fill="#6B8AA4" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">Slow</text>
+  <text x="1090" y="371" fill="#6B8AA4" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" text-anchor="end">Fast</text>
+
+  <text x="895" y="425" fill="#0E1821" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">Legend</text>
+  <rect x="895" y="441" width="261" height="34" rx="12" fill="#F8FBFD" stroke="#BCD0DE" stroke-width="2"/>
+  <rect x="895" y="485" width="261" height="34" rx="12" fill="#F8FBFD" stroke="#BCD0DE" stroke-width="2"/>
+  <rect x="895" y="529" width="261" height="34" rx="12" fill="#F8FBFD" stroke="#BCD0DE" stroke-width="2"/>
+  <line x1="908" y1="458" x2="934" y2="458" stroke="#5F7D96" stroke-width="4"/>
+  <line x1="908" y1="502" x2="934" y2="502" stroke="#24384B" stroke-width="4"/>
+  <line x1="908" y1="546" x2="934" y2="546" stroke="#F3A63F" stroke-width="4" stroke-dasharray="8 6"/>
+  <text x="944" y="463" fill="#24384B" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">Past trajectory</text>
+  <text x="944" y="507" fill="#24384B" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">Dynamic forecast</text>
+  <text x="944" y="551" fill="#24384B" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">Curve forecast</text>
+
+  <text x="895" y="612" fill="#0E1821" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">Selected Vehicle</text>
+  <rect x="895" y="628" width="261" height="86" rx="18" fill="#F8FBFD" stroke="#BCD0DE" stroke-width="2"/>
+  <text x="911" y="654" fill="#6B8AA4" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">Position</text>
+  <text x="911" y="678" fill="#24384B" font-family="DejaVu Sans, Arial, sans-serif" font-size="16">41.3 m, 71.7 m</text>
+  <rect x="911" y="686" width="120" height="28" rx="14" fill="#2CB87E"/>
+  <text x="971" y="705" text-anchor="middle" fill="#0E1821" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">AUTO: CIRCLE</text>
+</svg>

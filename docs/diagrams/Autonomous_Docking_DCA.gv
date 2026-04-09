@@ -1,0 +1,26 @@
+digraph Autonomous_Docking_DCA {
+	rankdir=TB size="8,8"
+	subgraph cluster_port {
+		color=blue label="Port-Based Decision-Making System"
+		RouteGen [label="Docking Route Generation" shape=box]
+		DCA_Port [label="Dynamic Consequence Analysis (DCA) Module" shape=ellipse]
+		GlobalMonitor [label="Global Monitoring & Updates" shape=box]
+		RouteGen -> DCA_Port
+		DCA_Port -> GlobalMonitor
+	}
+	subgraph cluster_ship {
+		color=green label="Ship-Based Decision-Making System"
+		RouteInterpret [label="Route Interpretation & Execution" shape=box]
+		DynamicPath [label="Dynamic Path Following" shape=box]
+		DCA_Ship [label="Dynamic Consequence Analysis (DCA) Module" shape=ellipse]
+		EmergencyResponse [label="Emergency Response System" shape=box]
+		RouteInterpret -> DynamicPath
+		DynamicPath -> DCA_Ship
+		DCA_Ship -> EmergencyResponse
+	}
+	Communication [label="Communication & Synchronization System" color=lightgrey shape=diamond style=filled]
+	Communication -> RouteGen [label="Send Docking Route & Updates"]
+	Communication -> RouteInterpret [label="Ship Receives Docking Plan"]
+	GlobalMonitor -> RouteInterpret [label="Route & Updates"]
+	EmergencyResponse -> Communication [label="Emergency Feedback"]
+}
