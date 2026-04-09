@@ -4,7 +4,7 @@ This Pygame-based project simulates the motion of unmanned surface vehicles usin
 
 ## Simulator Preview
 
-![CurvePath USV Simulator preview](docs/images/simulator-preview.svg)
+![CurvePath USV Simulator preview](docs/images/simulator-screenshot.png)
 
 ## Why This Matters
 
